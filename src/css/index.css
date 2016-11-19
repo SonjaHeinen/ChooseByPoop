@@ -1,0 +1,23 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('type.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: snow;
+}
+
+#Disclaimer {
+  visibility: hidden;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+}
+
+#Poop {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
